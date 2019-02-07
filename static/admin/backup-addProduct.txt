@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin - Add Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+
+<body>
+ 
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-navbar.png" alt="logo">
+            </a>
+            
+            <form class="mx-2 my-auto d-inline">
+                    <div class="input-group topnav1">
+                        <input type="text" class="form-control border border-right-0 bg-light form-rounded" placeholder="Search">
+                        <span class="input-group-append">
+                        <button class="btn btn-outline-secondary border border-left-0  form-rounded" type="button">
+                            <span class="fa fa-search"></span>
+                        </button>
+                    </span>
+                    </div>
+                </form>
+            
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#"><span class="fa fa-bell"></span></a>
+                </li>
+                <li class="nav-item">
+                        <span class="navbar-text">
+                                Welcome, Admin Name...
+                              </span>
+                </li>
+               
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                            <form class= "mx-2 my-auto w-full        ">
+                                    <button class="btn btn-secondary  form-rounded" type="button" >Logout</button>
+                               </form>
+                    </li>
+                </ul>
+    </nav>
+              
+
+
+
+</body>
+</html>
